@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS Team</title>
+  <link rel="shortcut icon" href="assets/cs_logo.jpg" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="styles/teamStyle.css">
+ 
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--Scroll up bottom-->
+
+  <a id="button">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!--Navigation for page-->
+
+  <nav class="container-fluid navbar navbar-expand-lg cs-navbar sticky-top" id="nav-bar">
+    <a class="navbar-brand" href="#"><img src="assets/logo.png"></a>
+    <button class="navbar-toggler" type="button" data-trigger="#navbarNavDropdown">
+      <i class="fa fa-bars hamburger" aria-hidden = "true"></i>
+    </button>
+    <div class="navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <div class="offcanvas-header mt-3">
+      <button class="btn btn-close float-right" style="color: #fff; font-size: 16px;"> &times </button>
+    </div>
+      <ul class="navbar-nav justify-content-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">TEAM</a>
+          </li> 
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownChaptersLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              CHAPTERS
+            </a>
+            <div class="dropdown-menu justify-content-start" aria-labelledby="navbarDropdownChaptersLink">
+                <a class="dropdown-item" href="ieee_wie.html">Women In Engineering</a>
+                <a class="dropdown-item " href="#">Power & Energy Society</a>
+                <a class="dropdown-item" href="#">Computer Society</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMoreLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              EVENTS
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMoreLink">
+                <a class="dropdown-item" href="events/events_page_2020.html">2020</a>
+                <a class="dropdown-item" href="events/events_page_2019.html">2019</a>
+                <a class="dropdown-item" href="events/events_page_2018.html">2018</a>
+                <a class="dropdown-item" href="events/events_page_2017.html">2017</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownIEEELink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              IEEE
+            </a>
+            <div class="dropdown-menu justify-content-start" aria-labelledby="navbarDropdownIEEELink">
+                <a class="dropdown-item" href="http://www.ieee.org/?WT.mc_id=mn_ieee">IEEE.org</a>
+                <a class="dropdown-item" href="http://ieeexplore.ieee.org/">IEEE Xplore</a>
+                <a class="dropdown-item" href="http://standards.ieee.org/">IEEE Standards</a>
+                <a class="dropdown-item" href="http://spectrum.ieee.org/">IEEE Spectrum</a>
+                <a class="dropdown-item" href="http://www.ieee.org/sitemap.html?WT.mc_id=mn_smap">More Sites</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMoreLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              MISC.
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMoreLink">
+                <a class="dropdown-item" href="http://www.gvpce.ac.in/">GVPCE(A) HOME</a>
+                <a class="dropdown-item" href="notices.html">Notices</a>
+                <a class="dropdown-item" href="benefits.html">Benefits of Membership</a>
+                <a class="dropdown-item" href="membership_form.html">Membership Form</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">CONTACT US</a>
+          </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ieee cs chapter banner -->
+     
+	<header class="cs-banner" id="banner">
+		<div class="container h-100" id="top">
+	    <div class="row h-100 align-items-center">
+	      <div class="col-12 text-center">
+	        		<h1>IEEE Computer Society</h1>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+					  <div>
+              <a href="#filterBox" style="scroll-behavior: smooth; ">
+                <div class="indicator" style="margin:auto;">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </a>
+					</div>
+	      </div>
+	    </div>
+	  </div>
+	</header>
+
+  <!--Main Container i.e content holder-->
+
+  <div class="container filterBox" id="filterBox">
+
+    <h2 class="text-center heading">
+      CS TEAM
+    </h2>
+
+    <!--Navigation tab for filter for pc-->
+
+    <div class="filter-tabs">
+      <div class="filter-sort">
+          <div class="navigation">
+              <a href="javascript:void(0)" data-filter="all" class="button navv active">
+                All
+              </a>
+              <a href="javascript:void(0)" data-filter="web" class="button navv">
+                Web designing
+              </a>
+              <a href="javascript:void(0)" data-filter="tech" class="button navv">
+                Technical and Organizing
+              </a>
+              <a href="javascript:void(0)" data-filter="orators" class="button navv">
+                Orators and Documentation
+              </a>
+              <a href="javascript:void(0)" data-filter="graphic" class="button navv">
+                Graphic Designing
+              </a>
+          </div>
+      </div>
+    </div>
+
+    <!--Navigation tab for filter for Mobiles-->
+    <div class="thumbnails-filter mobile text-center">
+      <select id="filter">
+        <option value="all">
+          All
+        </option>
+        <option value="web">
+          Web designing
+        </option>
+        <option value="tech">
+          Technical and Organising
+        </option>
+        <option value="orators">
+          Orators and Documentation
+        </option>
+        <option value="graphic">
+          Graphic Designing
+        </option>
+      </select>
+    </div>
+
+    <!--Team members of CS chapter-->
+
+    <section class="team cs-team" data-aos="fade-up">
+      <div class="team-info">
+        <div class="row">
+
+          <!--
+            Web Designing Commitee
+            /
+            ** samba
+            ** aiswarya
+            ** firoza 
+            /
+          -->
+
+          <div class="col-md-6 col-lg-4 mb-4 h-100 shot-thumbnail web">
+            <div class="single-team">
+                <div class="img-area">
+                    <img src="assets/team-members/Samba_Web_Designing.jpeg" class="img-fluid">
+                    <div class="social">
+                      <div class="style-dashes">
+                          <span>----</span>
+                        </div>
+                        <ul class="list-inline">
+                            <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img-text">
+                    <h4>Ch Samba</h4>
+                    <h5>97351649</h5>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 h-100 shot-thumbnail web">
+            <div class="single-team">
+                <div class="img-area">
+                    <img src="assets/team-members/Aiswarya_Web_Designing.jpeg" class="img-fluid">
+                    <div class="social">
+                      <div class="style-dashes">
+                          <span>----</span>
+                        </div>
+                        <ul class="list-inline">
+                             <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img-text">
+                    <h4>N Aiswarya</h4>
+                    <h5>97595632</h5>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 h-100 shot-thumbnail web">
+            <div class="single-team">
+                <div class="img-area">
+                    <img src="assets/team-members/Firoza_Web_Designing.jpg" class="img-fluid">
+                    <div class="social">
+                      <div class="style-dashes">
+                          <span>----</span>
+                        </div>
+                        <ul class="list-inline">
+                             <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img-text">
+                    <h4>Sk Firoza</h4>
+                    <h5>97352623</h5>
+                </div>
+            </div>
+          </div>
+
+          <!--
+            Graphic Design Commitee
+            /
+            **  Lavanya
+            ** Prasanna
+            ** Kiran
+            /
+          -->
+
+          <div class="col-md-6 col-lg-4 mb-4 h-100 shot-thumbnail graphic">
+            <div class="single-team">
+                <div class="img-area">
+                    <img src="assets/team-members/Lavanya_graphic designing.jpg" class="img-fluid">
+                    <div class="social">
+                      <div class="style-dashes">
+                          <span>----</span>
+                        </div>
+                        <ul class="list-inline">
+                             <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img-text">
+                    <h4>D Lavanya</h4>
+                    <h5>97352690</h5>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 h-100 shot-thumbnail graphic tech">
+            <div class="single-team">
+                <div class="img-area">
+                    <img src="assets/team-members/Saiprasanna_organizing_graphic designing.jpg" class="img-fluid">
+                    <div class="social">
+                      <div class="style-dashes">
+                          <span>----</span>
+                        </div>
+                        <ul class="list-inline">
+                             <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img-text">
+                    <h4>B Prasanna</h4>
+                    <h5>97351659</h5>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 h-100 shot-thumbnail graphic">
+            <div class="single-team">
+                <div class="img-area">
+                    <img src="assets/team-members/Kiran_graphic designing .jpg" class="img-fluid">
+                    <div class="social">
+                      <div class="style-dashes">
+                          <span>----</span>
+                        </div>
+                        <ul class="list-inline">
+                             <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img-text">
+                    <h4>R Kiran</h4>
+                    <h5>97579105</h5>
+                </div>
+            </div>
+          </div>
+
+          <!--
+            Documentation Team
+            /
+            ** Srikar
+            ** Yashwanth Raj
+            ** Lalitha 
+            ** Ramya Sri sai
+            /
+          -->
+
+          <div class="col-md-6 col-lg-4 mb-4 h-100 shot-thumbnail orators">
+            <div class="single-team">
+                <div class="img-area">
+                    <img src="https://images.unsplash.com/photo-1610123598147-f632aa18b275?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMTY2MDE0NQ&ixlib=rb-1.2.1&q=85" class="img-fluid">
+                    <div class="social">
+                      <div class="style-dashes">
+                          <span>----</span>
+                        </div>
+                        <ul class="list-inline">
+                             <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img-text">
+                    <h4>G Srikar</h4>
+                    <h5>97348702</h5>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 h-100 shot-thumbnail orators">
+            <div class="single-team">
+                <div class="img-area">
+                    <img src="assets/team-members/Yashwant_raj_ oration and documentation.jpg" class="img-fluid">
+                    <div class="social">
+                      <div class="style-dashes">
+                          <span>----</span>
+                        </div>
+                        <ul class="list-inline">
+                             <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img-text">
+                    <h4>G Yashwanth Raj</h4>
+                    <h5>97574857</h5>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 h-100 shot-thumbnail orators">
+            <div class="single-team">
+                <div class="img-area">
+                    <img src="https://images.unsplash.com/photo-1610123598147-f632aa18b275?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMTY2MDE0NQ&ixlib=rb-1.2.1&q=85" class="img-fluid">
+                    <div class="social">
+                      <div class="style-dashes">
+                          <span>----</span>
+                        </div>
+                        <ul class="list-inline">
+                             <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img-text">
+                    <h4>V Ramya Sri Sai</h4>
+                    <h5>97351690</h5>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 h-100 shot-thumbnail orators">
+            <div class="single-team">
+                <div class="img-area">
+                    <img src="assets/team-members/Lalitha Pavani_Oration & Documentation.jpg" class="img-fluid">
+                    <div class="social">
+                      <div class="style-dashes">
+                          <span>----</span>
+                        </div>
+                        <ul class="list-inline">
+                             <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img-text">
+                    <h4>B Lalitha Pavani</h4>
+                    <h5>97352433</h5>
+                </div>
+            </div>
+          </div>
+
+          <!--
+            Technical and Organising Team
+            /
+            ** Hima bindu
+            ** Manvitha
+            ** Babu rao
+            ** Ajay Kumar
+            ** Prasanna
+            ** Nithin Kumar
+            /
+          -->
+          <div class="col-md-6 col-lg-4 mb-4 h-100 shot-thumbnail tech">
+            <div class="single-team">
+                <div class="img-area">
+                    <img src="assets/team-members/Hima_Bindu_Organizing.jpg" class="img-fluid">
+                    <div class="social">
+                      <div class="style-dashes">
+                          <span>----</span>
+                        </div>
+                        <ul class="list-inline">
+                             <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img-text">
+                    <h4>T Hima Bindu</h4>
+                    <h5>97351541</h5>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 h-100 shot-thumbnail tech">
+            <div class="single-team">
+                <div class="img-area">
+                    <img src="assets/team-members/Manvitha_technical and organizing.jpeg" class="img-fluid">
+                    <div class="social">
+                      <div class="style-dashes">
+                          <span>----</span>
+                        </div>
+                        <ul class="list-inline">
+                             <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img-text">
+                    <h4>V Manvitha</h4>
+                    <h5>97351558</h5>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 h-100 shot-thumbnail tech">
+            <div class="single-team">
+                <div class="img-area">
+                    <img src="https://images.unsplash.com/photo-1610123598147-f632aa18b275?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMTY2MDE0NQ&ixlib=rb-1.2.1&q=85" class="img-fluid">
+                    <div class="social">
+                      <div class="style-dashes">
+                          <span>----</span>
+                        </div>
+                        <ul class="list-inline">
+                             <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img-text">
+                    <h4>S Babu Rao</h4>
+                    <h5>97578026</h5>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 h-100 shot-thumbnail tech">
+            <div class="single-team">
+                <div class="img-area">
+                    <img src="assets/team-members/Ajay_Kumar_organizing.jpg" class="img-fluid">
+                    <div class="social">
+                      <div class="style-dashes">
+                          <span>----</span>
+                        </div>
+                        <ul class="list-inline">
+                             <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img-text">
+                    <h4>V Ajay Kumar</h4>
+                    <h5>97350406</h5>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-4 h-100 shot-thumbnail tech">
+            <div class="single-team">
+                <div class="img-area">
+                    <img src="https://images.unsplash.com/photo-1610123598147-f632aa18b275?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyMTY2MDE0NQ&ixlib=rb-1.2.1&q=85" class="img-fluid">
+                    <div class="social">
+                      <div class="style-dashes">
+                          <span>----</span>
+                        </div>
+                        <ul class="list-inline">
+                            <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li class="instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img-text">
+                    <h4>S Nithin Kumar</h4>
+                    <h5>97575996</h5>
+                </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <div class="footer container">
+    <div class="row justify-content-center">
+      <div class="home">
+        <a href="index.html">
+          <button id="home-btn">Home</button>
+        </a>
+      </div>
+      <div class="cs">
+        <a href="index.html">
+          <button id="cs-btn">CS</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/3075ff846e.js" crossorigin="anonymous"></script>
+
+  <script  src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+  <script src="js/lightbox-plus-jquery.min.js"></script>
+  <script src="scripts/cs_team.js"></script>
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+    });
+  </script>
+
+  <!--JQuery-->
+  <script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+</body>
+</html>
